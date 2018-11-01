@@ -2,17 +2,20 @@ package cn.pojo;
 
 import javax.xml.crypto.Data;
 
+/**
+ *商品表
+ */
 public class GoodsForm {
-    private Integer gid;
-    private String gname;
-    private float gprice;
-    private String ginfo;
-    private String gimage;
-    private String ginfoimage;
-    private Data gdate;
-    private Integer sid;
-    private Integer gstate;
-    private Integer tid;
+    private Integer gid;    //商品ID
+    private String gname;   //商品名
+    private float gprice;   //商品价格
+    private String ginfo;   //商品信息
+    private String gimage;  //商品展示图片（上）
+    private String ginfoimage;  //商品信息图片
+    private Data gdate; //上架时间
+    private Integer sid;    //商家ID
+    private Integer gstate; //商品状态
+    private Integer tid;    //种类ID
 
 
     public Integer getGid() {

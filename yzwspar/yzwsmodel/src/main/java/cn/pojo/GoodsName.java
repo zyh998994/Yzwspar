@@ -1,9 +1,9 @@
 package cn.pojo;
 
+/**
+ * 商品类型表
+ */
 public class GoodsName {
-    /**
-     * 商品类型表
-     */
     private Integer gnid;   //商品类型ID
     private String gnname;  //商品类型名
 

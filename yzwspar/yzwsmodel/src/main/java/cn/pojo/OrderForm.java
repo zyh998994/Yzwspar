@@ -2,10 +2,10 @@ package cn.pojo;
 
 import java.util.Date;
 
+/**
+ *订单表
+ */
 public class OrderForm {
-    /**
-     *订单表
-     */
     private Integer oid;    //订单ID
     private String onum;    //订单数量
     private Integer uid;    //微信用户ID
