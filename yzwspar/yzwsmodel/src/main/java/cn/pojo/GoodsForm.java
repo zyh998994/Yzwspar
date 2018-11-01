@@ -14,6 +14,7 @@ public class GoodsForm {
     private Integer gstate;
     private Integer tid;
 
+
     public Integer getGid() {
         return gid;
     }

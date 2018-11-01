@@ -6,7 +6,7 @@ import java.util.Date;
  * 用户信息表
  */
 public class UserForm {
-        private Integer uid; //id
+    private Integer uid; //id
     private String openid; //微信登录的唯一标识
     private String country; //用户所在国家
     private Date greatedate;    //用户创建时间
