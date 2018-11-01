@@ -2,221 +2,191 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="test" />
+      <artifact name="yzwsweb:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="350294b1-4f6c-4a51-a4ca-ff49a461c9ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+    <list default="true" id="8b9d2a34-6c8b-4f9d-a89d-2495e2d48158" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/target/classes/cn/dao/TypeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/target/classes/mapper/serInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/target/classes/mapper/serInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsmodel/target/classes/cn/pojo/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsmodel/target/classes/cn/pojo/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/TypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/TypeServicerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/target/classes/cn/service/TypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/target/classes/cn/service/impl/TypeServicerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/SelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/cn/controller/SelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/cn/controller/SelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/css/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/fonts/DroidSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/fonts/DroidSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/explorer_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/logo_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/pet_store_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/throbber.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/images/wordnik_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/geo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/ko-kr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/translator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/backbone-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/es5-shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/handlebars-4.0.5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/highlight.9.1.0.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/jquery-1.8.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/jquery.ba-bbq.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/jquery.slideto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/jquery.wiggle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/js-yaml.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/jsoneditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/lodash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/marked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/object-assign-pollyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/sanitize-html.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/lib/swagger-oauth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/o2c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/swagger-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/swagger-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/apiguardian-api-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/junit-jupiter-api-5.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/junit-platform-commons-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/opentest4j-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/AddressFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/AddressFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsForMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsForMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsNameMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsNameMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/LStoreFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/LStoreFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/SellerFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/SellerFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/StoreFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/StoreFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/UserFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/UserFormMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/target/yzwspar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/target/yzwspar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsmodel/target/yzwspar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsmodel/target/yzwspar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsservice/target/yzwspar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/target/yzwspar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsweb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb.war" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsdao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsdao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsmodel-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsmodel-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsservice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/lib/yzwsservice-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/yzwsservice/target/" />
+    <ignored path="$PROJECT_DIR$/yzwsweb/target/" />
+    <ignored path="$PROJECT_DIR$/yzwsdao/target/" />
+    <ignored path="$PROJECT_DIR$/yzwsmodel/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1859276807">
+    <session id="1318272057">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xml" value="3" />
+          <entry key="java" value="17" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="17" />
+          <entry key="JSP" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="27" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="xml" value="23" />
+          <entry key="java" value="476" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="72" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="XML" value="23" />
+          <entry key="JAVA" value="476" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="72" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/AddressFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="72">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/CommentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            <state relative-caret-position="72">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/redis-context.xml">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsForMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="72">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsNameMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/spring-mvc.xml">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/LStoreFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="72">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/test.java">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/config/SwaggerConfig.java">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/SellerFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/TypeForm.java">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/StoreFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="72">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/GoodsController.java">
+        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/UserFormMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="72">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -224,8 +194,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/UserForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/TypeForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/StoreForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/Shopcart.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/SellerForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/OrderForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/GoodsName.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/GoodsForm.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/Comment.java" />
+        <option value="$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/AddressForm.java" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/AddressFormMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/CommentMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsForMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsNameMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/LStoreFormMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/SellerFormMapper.xml" />
         <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/StoreFormMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/UserFormMapper.xml" />
       </list>
     </option>
   </component>
@@ -235,34 +224,48 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yzwsdao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yzwsmodel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yzwspar" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yzwspar" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="yzwsservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yzwsservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yzwsweb Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yzwsweb Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="843" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="135" />
+    <option name="y" value="15" />
     <option name="width" value="1750" />
-    <option name="height" value="990" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -270,17 +273,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
@@ -372,47 +371,8 @@
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
@@ -431,32 +391,6 @@
               <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
@@ -474,34 +408,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540999891560" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541053016940" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -515,35 +435,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: yzwspar">
-    <configuration name="All Features in: yzwspar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="yzwspar" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: yzwspar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.47" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.7.0_79\jre">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="test">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_yzwspar_4" />
+        <option name="BASE_DIRECTORY_NAME" value="_yzwspar_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -551,7 +448,108 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63407" />
+        <option name="DEBUG_PORT" value="64913" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64926" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.47" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.7.0_79\jre">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="yzwsweb:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_yzwspar_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64913" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -601,17 +599,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="test" />
+          <artifact name="yzwsweb:war" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Cucumber java.All Features in: yzwspar" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.All Features in: yzwspar" />
+        <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -620,210 +614,404 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="350294b1-4f6c-4a51-a4ca-ff49a461c9ab" name="Default Changelist" comment="" />
-      <created>1540986064830</created>
+      <changelist id="8b9d2a34-6c8b-4f9d-a89d-2495e2d48158" name="Default Changelist" comment="" />
+      <created>1541032592916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540986064830</updated>
-      <workItem from="1540986066801" duration="817000" />
-      <workItem from="1540986976335" duration="941000" />
+      <updated>1541032592916</updated>
+      <workItem from="1541032594699" duration="5474000" />
     </task>
+    <task id="LOCAL-00001" summary="刘思宇">
+      <created>1541045987433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541045987433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="刘思宇">
+      <created>1541046948970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541046948970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1108000" />
+    <option name="totallyTimeSpent" value="5474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" sideWeight="0.2592068" side_tool="true" visible="true" weight="0.22453083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7407932" visible="true" weight="0.22453083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32991204" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32919255" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27859238" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.76628894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32991204" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32935917" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.028820375" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="刘思宇" />
+    <option name="LAST_COMMIT_MESSAGE" value="刘思宇" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/LogTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/redis-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
+        <state relative-caret-position="-893" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/LStoreForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/UserFormDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/UserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/StoreForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/Shopcart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/SellerForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/TypeForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/GoodsName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/GoodsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsmodel/src/main/java/cn/pojo/AddressForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/redis-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/AddressFormDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/AddressFormMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsForMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/GoodsNameMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/LStoreFormMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/serInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/SellerFormMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/test.java">
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/StoreFormMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/GoodsController.java">
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="72">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/UserFormMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>test</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>yzwspar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
