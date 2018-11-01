@@ -17,6 +17,7 @@ public class GoodsForm {
     private Integer gstate; //商品状态
     private Integer tid;    //种类ID
 
+
     public Integer getGid() {
         return gid;
     }
