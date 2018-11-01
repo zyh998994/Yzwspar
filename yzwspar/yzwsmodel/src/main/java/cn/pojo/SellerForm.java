@@ -1,9 +1,9 @@
 package cn.pojo;
 
+/**
+ * 商家信息表
+ */
 public class SellerForm {
-    /**
-     * 商家信息表
-     */
     private Integer seid;   //商家信息ID
     private String sename;  //商家名
     private String sepwd;   //商家密码

@@ -1,9 +1,12 @@
 package cn.pojo;
 
+/**
+ * 商家表
+ */
 public class StoreForm {
-    private Integer sid;
-    private String sname;
-    private String simage;
+    private Integer sid;    //商家ID
+    private String sname;   //商家名
+    private String simage;  //商家头像
 
     public Integer getSid() {
         return sid;

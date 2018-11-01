@@ -1,11 +1,14 @@
 package cn.pojo;
 
+/**
+ *地址表
+ */
 public class AddressForm {
-    private Integer oid;
-    private String address;
-    private String phone;
-    private String postcode;
-    private Integer uuid;
+    private Integer oid;    //地址ID
+    private String address; //收货地址
+    private String phone;   //收货联系电话
+    private String postcode;    //收货地址邮编
+    private Integer uuid;   //用户ID
 
     public Integer getOid() {
         return oid;

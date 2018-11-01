@@ -2,13 +2,16 @@ package cn.pojo;
 
 import javax.xml.crypto.Data;
 
+/**
+ *评论表
+ */
 public class Comment {
-    private Integer cid;
-    private Integer uuid;
-    private String ccontent;
-    private String cimage;
-    private String cidentity;
-    private Data cdate;
+    private Integer cid;    //评论ID
+    private Integer uuid;   //用户ID
+    private String ccontent;    //评论内容
+    private String cimage;  //评论图片
+    private Integer cidentity;   //评论状态(1存在 0删除)
+    private Data cdate; //
 
     public Integer getCid() {
         return cid;
@@ -42,11 +45,11 @@ public class Comment {
         this.cimage = cimage;
     }
 
-    public String getCidentity() {
+    public Integer getCidentity() {
         return cidentity;
     }
 
-    public void setCidentity(String cidentity) {
+    public void setCidentity(Integer cidentity) {
         this.cidentity = cidentity;
     }
 
