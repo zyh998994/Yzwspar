@@ -2,5 +2,26 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.dao.ShopcartDao">
+    <select id="seleinfo" resultType="GoodsForm" parameterType="GoodsForm">
+        select gname,gprice,ginfo,sid,gstate,tid,specs1,specs2,specs3,specs4 from goodsform
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="specs1 != null and specs1 != ''">
+                specs1=#{specs1}
+            </if>
+            <if test="specs2 != null and specs2 != ''">
+                and specs2=#{specs2}
+            </if>
+            <if test="specs3 != null and specs3 != ''">
+                and specs3=#{specs3}
+            </if>
+            <if test="specs4 != null and specs4 != ''">
+                specs4=#{specs4}
+            </if>
 
+        </trim>
+    </select>
+
+    <insert id="inserjudge" parameterType="Shopcart">
+        insert into shopcart values (#{shopid},#{goodid},#{uuid},#{shopnum})
+    </insert>
 </mapper>
