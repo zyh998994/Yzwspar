@@ -22,12 +22,13 @@ public class ShopcartController {
 
     @ResponseBody
     @RequestMapping(value = "getinfo")
-    public GoodsForm getinfo(GoodsForm gf){
+    public String getinfo(GoodsForm gf){
         GoodsForm good = new GoodsForm();
-        good.setSpecs1("黑白");
-        good.setSpecs2(8);
-        return shopcart.seleinfo(good);
+        good.setSpecs1("黑白");//型号1
+        good.setSpecs2(8);//型号2
+        int num = 235;//数量
+        shopcart.seleinfo(good);
+        return shopcart.inseinfo(good,num);
     }
-
 
 }

@@ -20,7 +20,7 @@ public class GoodsForm {
     private Integer specs2;
     private String specs3;
     private String specs4;
-    private String ext1;
+    private Integer ext1;
     private String ext2;
     private String exts3;
 
@@ -56,11 +56,11 @@ public class GoodsForm {
         this.specs4 = specs4;
     }
 
-    public String getExt1() {
+    public Integer getExt1() {
         return ext1;
     }
 
-    public void setExt1(String ext1) {
+    public void setExt1(Integer ext1) {
         this.ext1 = ext1;
     }
 

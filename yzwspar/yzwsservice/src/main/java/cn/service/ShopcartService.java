@@ -1,7 +1,6 @@
 package cn.service;
 
 import cn.pojo.GoodsForm;
-import cn.pojo.Shopcart;
 
 public interface ShopcartService {
     /**
@@ -13,8 +12,10 @@ public interface ShopcartService {
 
     /**
      * 添加商品到购物车
-     * @param sp
+     * @param goodf 商品信息
+     * @param num   同一商品的订单数量
      * @return
      */
-    int inseinfo(Shopcart sp);
+
+    String inseinfo(GoodsForm goodf, int num);
 }
