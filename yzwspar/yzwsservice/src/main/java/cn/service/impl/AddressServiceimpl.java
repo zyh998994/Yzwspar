@@ -7,6 +7,7 @@ import com.alibaba.fastjson.JSON;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service("address")
 public class AddressServiceimpl implements AddressService1 {
@@ -27,20 +28,51 @@ public class AddressServiceimpl implements AddressService1 {
         if(seladd != null) {
             return JSON.toJSONString(seladd);
         }else{
-            return "1";
+            return "请填写收货地址";
         }
+    }
+
+    /**
+     * 所有地址
+     * @param ada
+     * @return
+     */
+    @Override
+    public String selall(AddressForm ada) {
+        List<AddressForm> selall = arf.selall(ada);
+        return JSON.toJSONString(selall);
+    }
+
+    /**
+     * gshu
+     * @param ad
+     * @return
+     */
+    @Override
+    public int selsite(AddressForm ad) {
+        return arf.selsite(ad);
     }
 
     @Override
     public String address(AddressForm arf) {
+        if(selsite(arf)<=3){
+            String address = arf.getAddress();
+            String phone = arf.getPhone();
+            String postcode = arf.getPostcode();
+            if(address.length()>50){
+                return "地址字数达到上限";
+            }else if(phone.length() != 11 ){
+                return "手机号错误";
+            }else {
+                return "成功";
+            }
+        }else{
+            return "对不起，最大地址数为3，请先删除";
+        }
 
-         if(arf.getAddress() != null && arf.getPhone() != null
-                 && arf.getPostcode()!= null && arf.getUuid() != null){
-
-         }else{
-             return "失败";
-         }
-        return "成功";
 
     }
+
+
+
 }

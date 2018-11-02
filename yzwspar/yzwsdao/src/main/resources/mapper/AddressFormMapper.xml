@@ -6,10 +6,13 @@
 
         select address , phone ,consignee ,postcode FROM addressform where uuid = #{uuid} and defau = 0
 
-
-
     </select>
-
+    <select id="selall" resultType="cn.pojo.AddressForm" parameterType="cn.pojo.AddressForm">
+         select address , phone ,consignee ,postcode FROM addressform where uuid = #{uuid}
+    </select>
+    <select id="selsite" resultType="cn.pojo.AddressForm">
+        select count(1) FROM addressform where uuid = #{uuid}
+    </select>
 
     <insert id="address" parameterType="cn.pojo.AddressForm">
         insert into addressform values (0,#{address},#{phone},#{postcode},#{uuid})

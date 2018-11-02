@@ -22,6 +22,12 @@ public class AddressController {
     public void setAdd(AddressService1 add) {
         this.add = add;
     }
+
+    /**
+     * 显示默认地址
+     * @param ad
+     * @return
+     */
     @ResponseBody
     @RequestMapping(value = "getall")
     public String selsite(AddressForm ad){
@@ -29,7 +35,7 @@ public class AddressController {
         return add.seladd(ad);
     }
     /**
-     * 地址
+     * 添加地址
      * @return
      */
     @ResponseBody
@@ -39,5 +45,15 @@ public class AddressController {
         return add.address(arf);
     }
 
+    /**
+     * 展示地址
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value="show1")
+    public String showsite( AddressForm arf){
+        arf.setUuid(1);
+        return add.selall(arf);
+    }
 
 }
