@@ -9,6 +9,15 @@ public class AddressForm {
     private String phone;   //收货联系电话
     private String postcode;    //收货地址邮编
     private Integer uuid;   //用户ID
+    private String consignee; //收货人姓名
+    private Integer defau;
+    public String getConsignee() {
+        return consignee;
+    }
+    public void setConsignee(String consignee) {
+        this.consignee = consignee;
+    }
+
 
     public Integer getOid() {
         return oid;
