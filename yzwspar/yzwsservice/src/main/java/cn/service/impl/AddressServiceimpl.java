@@ -40,6 +40,7 @@ public class AddressServiceimpl implements AddressService1 {
     @Override
     public String selall(AddressForm ada) {
         List<AddressForm> selall = arf.selall(ada);
+
         return JSON.toJSONString(selall);
     }
 
@@ -51,6 +52,16 @@ public class AddressServiceimpl implements AddressService1 {
     @Override
     public int selsite(AddressForm ad) {
         return arf.selsite(ad);
+    }
+
+    @Override
+    public String delsite(AddressForm ad) {
+        int delsite = arf.delsite(ad);
+        if(delsite>0) {
+            return "删除成功";
+        }else{
+            return "删除失败";
+        }
     }
 
     @Override

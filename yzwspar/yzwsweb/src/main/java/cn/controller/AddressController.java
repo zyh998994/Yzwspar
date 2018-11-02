@@ -55,5 +55,16 @@ public class AddressController {
         arf.setUuid(1);
         return add.selall(arf);
     }
+    /**
+     * 删除地址
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value="dele")
+    public String delsite(AddressForm arf){
+        arf.setUuid(1);
+        arf.setOid(1);
 
+        return add.delsite(arf);
+    }
 }

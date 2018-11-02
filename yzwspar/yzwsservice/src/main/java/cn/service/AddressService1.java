@@ -29,4 +29,11 @@ public interface AddressService1 {
      * @return
      */
     int selsite(AddressForm ad);
+
+    /**
+     * 根据用户id和地址编号删除
+     * @param ad
+     * @return
+     */
+    String delsite(AddressForm ad);
 }

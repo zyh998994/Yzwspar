@@ -17,5 +17,7 @@
     <insert id="address" parameterType="cn.pojo.AddressForm">
         insert into addressform values (0,#{address},#{phone},#{postcode},#{uuid})
     </insert>
-
+    <delete id="delsite" parameterType="cn.pojo.AddressForm">
+        delete from addressform where uuid = #{uuid} and oid = #{oid}
+</delete>
 </mapper>

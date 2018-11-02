@@ -26,7 +26,7 @@ public class ShopcartController {
         GoodsForm good = new GoodsForm();
         good.setSpecs1("黑白");//型号1
         good.setSpecs2(8);//型号2
-        int num = 235;//数量
+        int num = 20;//数量
         shopcart.seleinfo(good);
         return shopcart.inseinfo(good,num);
     }

@@ -35,5 +35,10 @@ public interface AddressFormDao {
      */
     int address(AddressForm addrs);
 
-
+    /**
+     * 根据用户ID和地址id删除
+     * @param addrs
+     * @return
+     */
+    int delsite(AddressForm addrs);
 }
