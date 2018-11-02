@@ -8,8 +8,8 @@ import java.util.List;
 public interface GoodsFormDao {
 
  /**
-  * 根據商品名模糊查詢商品
+  * 根據商品名模糊查詢商品信息
   * @return
   */
-   List<GoodsForm> selfuzzy(@Param("gname") String gname);
+   List<GoodsForm> selfuzzy(@Param("gname")String gname);
  }
