@@ -9,6 +9,7 @@ public interface GoodsNameDao {
      * 获取分类名称
      * @return
      */
+
     List<GoodsName> getShow();
 
 }
