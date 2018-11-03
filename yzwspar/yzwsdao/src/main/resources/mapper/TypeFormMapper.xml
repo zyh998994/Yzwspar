@@ -2,5 +2,28 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.dao.TypeFormDao">
+    <!--&lt;!&ndash;商品种类&ndash;&gt;
+    <select id="TypeShow" resultType="TypeForm">
+        select tname from typeform
+    </select>
+-->
+    <!--根据商品ID查询-->
+    <select id="TypeAll" resultType="TypeForm">
+        select tname,tid from typeform where gnid=#{gnid}
+    </select>
 
+    <select id="getAllType" resultType="TypeForm">
+        select tid,tname,gnid from TypeForm
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="tid != null">
+              and tid=#{tid}
+            </if>
+            <if test="tname != null">
+              and tname=#{tname}
+            </if>
+            <if test="gnid !=null">
+              and gnid=#{gnid}
+            </if>
+        </trim>
+    </select>
 </mapper>
