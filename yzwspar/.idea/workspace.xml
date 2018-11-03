@@ -6,18 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d384e7e8-898d-49d1-be6f-110af604289d" name="Default Changelist" comment="zyh">
+    <list default="true" id="d384e7e8-898d-49d1-be6f-110af604289d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/GoodsFormDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/GoodsFormDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/OrderFormMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/resources/mapper/TypeFormMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/StoreFormService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/StoreFormService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/StoreFormServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/StoreFormServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/StoreFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/StoreFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsweb/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/classes/applicationContext-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/classes/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/applicationContext-mybatis.xml" afterDir="false" />
@@ -113,29 +104,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="33" />
           <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="33" />
           <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4695" />
-          <entry key="txt" value="3" />
+          <entry key="java" value="4739" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4695" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="4739" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="72" />
         </counts>
@@ -145,71 +136,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/TypeFormControler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/StoreFormController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/StoreFormService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/StoreFormServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/GoodsFormServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/GoodsFormDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -238,11 +165,13 @@
         <option value="$PROJECT_DIR$/yzwsweb/src/main/resources/applicationContext-mybatis.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yzwsservice/pom.xml" />
-        <option value="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/LimitServiceImpl.java" />
-        <option value="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/limitController.java" />
         <option value="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/StoreFormService.java" />
         <option value="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/StoreFormServiceImpl.java" />
         <option value="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/GoodsFormDao.java" />
+        <option value="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java" />
+        <option value="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/LimitService.java" />
+        <option value="$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/LimitServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/limitController.java" />
       </list>
     </option>
   </component>
@@ -334,28 +263,37 @@
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsdao" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsdao" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsdao" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsdao" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
+              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541226403674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541226799123" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -538,7 +476,7 @@
       <updated>1541074492740</updated>
       <workItem from="1541074494077" duration="15443000" />
       <workItem from="1541131158858" duration="1059000" />
-      <workItem from="1541205039365" duration="15826000" />
+      <workItem from="1541205039365" duration="16602000" />
     </task>
     <task id="LOCAL-00001" summary="zyh">
       <created>1541074651930</created>
@@ -575,11 +513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541205898746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fwz">
+      <created>1541226601060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541226601060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32208000" />
+    <option name="totallyTimeSpent" value="32984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -628,7 +573,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zyh" />
     <MESSAGE value="&#10;wz" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;wz" />
+    <MESSAGE value="fwz" />
+    <option name="LAST_COMMIT_MESSAGE" value="fwz" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -830,45 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/LimitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/limitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/LimitServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/TypeFormControler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -897,6 +804,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/GoodsFormServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -904,10 +818,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/GoodsFormDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/LimitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsservice/src/main/java/cn/service/impl/LimitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yzwsweb/src/main/java/cn/controller/limitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>

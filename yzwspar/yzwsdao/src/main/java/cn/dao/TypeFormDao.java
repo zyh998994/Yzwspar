@@ -19,6 +19,11 @@ public interface TypeFormDao {
      */
     List<TypeForm> TypeAll(@Param("gnid") Integer gnid);
 
+    /**
+     * 分页
+     * @param typeForm
+     * @return
+     */
     List<TypeForm> getAllType(TypeForm typeForm);
 
 }
