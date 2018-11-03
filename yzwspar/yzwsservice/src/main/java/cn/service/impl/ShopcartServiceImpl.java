@@ -38,25 +38,21 @@ public class ShopcartServiceImpl implements ShopcartService {
      * @return
      */
     @Override
-    public String inseinfo(GoodsForm goodf, int num) {
+    public String inseinfo(GoodsForm goodf, int num, Shopcart sc) {
        try {
-            Shopcart sc = new Shopcart();
             sc.setShopid(0);
-            sc.setUuid(1);
-            if(shop.seleinfo(goodf).getGstate() == 1){
-                sc.setGoodid(shop.seleinfo(goodf).getGid());
+            if(seleinfo(goodf).getGstate() == 1){
+                sc.setGoodid(seleinfo(goodf).getGid());
             }else {
                 return "该商品已经下架";
             }
             if(num < 1){
                 return "添加到购物车商品数量小于1";//添加到购物车商品数量小于1
-            }else if(num >= shop.seleinfo(goodf).getExt1()){
+            }else if(num >= seleinfo(goodf).getExt1()){
                 return "添加到购物车商品数量大于库存";//添加到购物车商品数量大于库存
             }else {
                 sc.setShopnum(num);
             }
-            /*sc.setShopnum(getnum(goodf,num));*/
-
             int judge = shop.inserjudge(sc);
             if(judge > 0){
                 return "添加成功，请到购物车查看";
@@ -68,41 +64,42 @@ public class ShopcartServiceImpl implements ShopcartService {
        }
     }
 
-    /**
-     * 验证商品的状态
-     * @param goodf
-     * @return
-     */
-  /*  public int getState(GoodsForm goodf){
-        try {
-            if(shop.seleinfo(goodf).getGstate() == 1){
-               return shop.seleinfo(goodf).getGid();
-            }else {
-                return -1;
-            }
-        }catch (Exception e){
-            return -5;
-        }
-    }*/
+    @Override
+    public String updaorderinfo(Shopcart sc, GoodsForm goodf, int num) {
 
-    /**
-     * 验证添加到购物车商品的数量的合理性
-     * @param goodf
-     * @param num
-     */
-/*    public int getnum(GoodsForm goodf, int num){
-        try{
+        try {
+            sc.setShopid(seleinfo(goodf).getGid());
             if(num < 1){
-                return -2;//添加到购物车商品数量小于1
-            }else if(num >= shop.seleinfo(goodf).getExt1()){
-                return -3;//添加到购物车商品数量大于库存
+                return "添加到购物车商品数量小于1";
+            }else if(num > (seleinfo(goodf).getExt1() - shop.seleShop(sc).getShopid())){
+                return "添加到购物车商品数量大于库存";
             }else {
-                return num;
+                sc.setShopnum(shop.seleShop(sc).getShopnum() + num);
+            }
+            int judge = shop.updateorderinfo(sc);
+            if(judge > 0){
+                return "添加成功";
+            }else {
+                return "添加失败";
             }
         }catch (Exception e){
-            return -4;//数据异常
+            return "空指针或数据异常";
         }
-    }*/
+
+    }
+
+    @Override
+    public Object judge(Shopcart sc, GoodsForm goodf, int num) {
+        sc.setGoodid(seleinfo(goodf).getGid());
+
+        if(shop.seleShop(sc) != null){
+            return updaorderinfo(sc, goodf, num);
+        }else {
+           return inseinfo(goodf, num, sc);
+        }
+    }
+
+
 
 
 }

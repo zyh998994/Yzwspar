@@ -1,6 +1,7 @@
 package cn.controller;
 
 import cn.pojo.GoodsForm;
+import cn.pojo.Shopcart;
 import cn.service.ShopcartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,13 +23,15 @@ public class ShopcartController {
 
     @ResponseBody
     @RequestMapping(value = "getinfo")
-    public String getinfo(GoodsForm gf){
+    public Object getinfo(GoodsForm gf){
         GoodsForm good = new GoodsForm();
-        good.setSpecs1("黑白");//型号1
-        good.setSpecs2(8);//型号2
-        int num = 20;//数量
+        Shopcart sc = new Shopcart();
+        good.setSpecs1("复活节");//型号1
+        good.setSpecs2(9);//型号2
+        int num = 2;//数量
+        sc.setUuid(8);
         shopcart.seleinfo(good);
-        return shopcart.inseinfo(good,num);
+        return shopcart.judge(sc,good,num);
     }
 
 }

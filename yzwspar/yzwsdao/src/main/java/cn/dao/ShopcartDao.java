@@ -17,4 +17,18 @@ public interface ShopcartDao {
      * @return
      */
     int inserjudge(Shopcart sc);
+
+    /**
+     * 修改前查询
+     * @return
+     */
+    Shopcart seleShop(Shopcart sc);
+
+    /**
+     * 修改订单数量
+     * @param sc
+     * @return
+     */
+    int updateorderinfo(Shopcart sc);
+
 }

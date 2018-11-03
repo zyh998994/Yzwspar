@@ -24,4 +24,12 @@
     <insert id="inserjudge" parameterType="Shopcart">
         insert into shopcart values (#{shopid},#{goodid},#{uuid},#{shopnum})
     </insert>
+
+    <select id="seleShop" resultType="Shopcart" parameterType="Shopcart">
+      select shopid,goodid,uuid,shopnum from shopcart where goodid=#{goodid} and uuid=#{uuid}
+    </select>
+
+    <update id="updateorderinfo" parameterType="Shopcart">
+      update shopcart set shopnum=#{shopnum} where uuid=#{uuid} and goodid=#{goodid} and #{shopid}
+    </update>
 </mapper>
