@@ -1,9 +1,5 @@
 package cn.service;
 
-import cn.pojo.StoreForm;
-
-import java.util.List;
-
 public interface StoreFormService {
 
     /**
@@ -12,11 +8,5 @@ public interface StoreFormService {
      */
     String getAdd();
 
-    /**
-     * 分页
-     * @param index 页数
-     * @param PageSize 每页显示条目数
-     * @return
-     */
-    List<StoreForm> getPage(Integer index, Integer PageSize);
+
 }

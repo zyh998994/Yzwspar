@@ -28,8 +28,5 @@ public class StoreFormServiceImpl implements StoreFormService {
         return JSON.toJSONString(all);
     }
 
-    @Override
-    public List<StoreForm> getPage(Integer index, Integer PageSize) {
-        return null;
-    }
+
 }

@@ -13,16 +13,13 @@
     </select>
 
     <select id="getAllType" resultType="TypeForm">
-        select tid,tname,gnid from TypeForm
+        select tid,tname from typeform
         <trim prefix="where" prefixOverrides="and|or">
             <if test="tid != null">
               and tid=#{tid}
             </if>
             <if test="tname != null">
               and tname=#{tname}
-            </if>
-            <if test="gnid !=null">
-              and gnid=#{gnid}
             </if>
         </trim>
     </select>
