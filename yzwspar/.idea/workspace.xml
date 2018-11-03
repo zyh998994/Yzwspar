@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d384e7e8-898d-49d1-be6f-110af604289d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsdao/src/main/java/cn/dao/TypeFormDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/classes/applicationContext-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/classes/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yzwsweb/target/yzwsweb/WEB-INF/classes/applicationContext-mybatis.xml" afterDir="false" />
@@ -260,41 +259,6 @@
               <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
               <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yzwspar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yzwspar" type="462c0819:PsiDirectoryNode" />
-              <item name="yzwsservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541226799123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541227199131" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -476,7 +440,7 @@
       <updated>1541074492740</updated>
       <workItem from="1541074494077" duration="15443000" />
       <workItem from="1541131158858" duration="1059000" />
-      <workItem from="1541205039365" duration="16602000" />
+      <workItem from="1541205039365" duration="16939000" />
     </task>
     <task id="LOCAL-00001" summary="zyh">
       <created>1541074651930</created>
@@ -520,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541226601060</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fwz">
+      <created>1541227222880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541227222880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32984000" />
+    <option name="totallyTimeSpent" value="33321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
