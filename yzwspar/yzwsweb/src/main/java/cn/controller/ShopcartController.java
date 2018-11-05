@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class ShopcartController {
     @Autowired
     private ShopcartService shopcart;
+
+
     public ShopcartService getShopcart() {
         return shopcart;
     }
-
     public void setShopcart(ShopcartService shopcart) {
         this.shopcart = shopcart;
     }
@@ -32,6 +33,16 @@ public class ShopcartController {
         sc.setUuid(8);
         shopcart.seleinfo(good);
         return shopcart.judge(sc,good,num);
+    }
+
+    @RequestMapping(value = "updanum")
+    @ResponseBody
+    public String updashopnum(Shopcart sc, String choose){
+        sc.setUuid(8);
+        sc.setGoodid(13);
+        choose = "y";
+
+        return shopcart.updaShopnum(sc,choose);
     }
 
 }

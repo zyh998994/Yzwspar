@@ -99,7 +99,45 @@ public class ShopcartServiceImpl implements ShopcartService {
         }
     }
 
+    @Override
+    public String updaShopnum(Shopcart sc, String choose) {
+        System.out.println(1);
+        try {
+            GoodsForm gf = new GoodsForm();
+            gf.setGid(sc.getGoodid());
 
+            System.out.println(gf.getGid());
+            System.out.println(seleinfo(gf).getExt1());
+
+            switch (choose){
+                case "y":
+                    System.out.println(sc.getShopnum() + "--" + seleinfo(gf).getExt1());
+                    if((shop.seleShop(sc).getShopnum() + 1) > seleinfo(gf).getExt1()){
+                        sc.setShopnum(shop.seleShop(sc).getShopnum()) ;
+                    }else {
+                        sc.setShopnum(shop.seleShop(sc).getShopnum() + 1);
+                    }
+                    break;
+                case "n":
+                    if((shop.seleShop(sc).getShopnum() - 1) < 1){
+                        sc.setShopnum(1) ;
+                    }else {
+                        sc.setShopnum(shop.seleShop(sc).getShopnum() - 1);
+                    }
+                    break;
+                default:
+                    break;
+            }
+            int judge = shop.updateorderinfo(sc);
+            if(judge > 0){
+                return "修改成功";
+            }else {
+                return "修改失败";
+            }
+        }catch (Exception e){
+            return "参数错误";
+        }
+    }
 
 
 }

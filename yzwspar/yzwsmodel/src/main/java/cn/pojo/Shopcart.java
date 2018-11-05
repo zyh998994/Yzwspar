@@ -8,6 +8,24 @@ public class Shopcart {
     private Integer uuid;   //
     private Integer goodid; //
     private Integer shopnum;    //
+    private GoodsForm gf;
+    private StoreForm sf;
+    public GoodsForm getGf() {
+        return gf;
+    }
+
+    public void setGf(GoodsForm gf) {
+        this.gf = gf;
+    }
+
+    public StoreForm getSf() {
+        return sf;
+    }
+
+    public void setSf(StoreForm sf) {
+        this.sf = sf;
+    }
+
 
     public Integer getShopid() {
         return shopid;

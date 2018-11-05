@@ -15,7 +15,10 @@
                 and specs3=#{specs3}
             </if>
             <if test="specs4 != null and specs4 != ''">
-                specs4=#{specs4}
+                and specs4=#{specs4}
+            </if>
+            <if test="gid != null and gid != ''">
+                and gid=#{gid}
             </if>
 
         </trim>
@@ -30,6 +33,38 @@
     </select>
 
     <update id="updateorderinfo" parameterType="Shopcart">
-      update shopcart set shopnum=#{shopnum} where uuid=#{uuid} and goodid=#{goodid} and #{shopid}
+      update shopcart set shopnum=#{shopnum} where uuid=#{uuid} and goodid=#{goodid}
     </update>
+
+    <resultMap id="a" type="cn.pojo.Shopcart">
+        <result property="shopid" column="shopid"></result>
+        <result property="goodid" column="goodid"></result>
+        <result property="uuid" column="uuid"></result>
+        <result property="shopnum" column="shopnum"></result>
+        <association property="sf" javaType="cn.pojo.StoreForm">
+            <result property="sname" column="sname"></result>
+        </association>
+        <association property="gf" javaType="cn.pojo.GoodsForm">
+            <result property="gid" column="gid"></result>
+            <result property="gname" column="gname"></result>
+            <result property="gprice" column="gprice"></result>
+            <result property="gimage" column="gimage"></result>
+            <result property="specs1" column="specs1"></result>
+            <result property="specs2" column="specs2"></result>
+            <result property="specs3" column="specs3"></result>
+            <result property="specs4" column="specs4"></result>
+            <result property="sid" column="sid"></result>
+        </association>
+    </resultMap>
+
+    <select id="selescilist" resultType="Shopcart" resultMap="a" parameterType="Shopcart">
+        select goodid,uuid,shopnum,gname,gprice,gimage,goodsform.sid,specs1,specs1,specs3,specs4,sname from shopcart left join (goodsform,storeform) ON (shopcart.goodid=goodsform.gid and goodsform.sid=storeform.sid) where shopcart.uuid = #{uuid}
+    </select>
+
+    <delete id="deleshopcart" parameterType="Shopcart">
+        delete from shopcart where goodid=#{goodid} and uuid=#{uuid}
+    </delete>
+
+
+
 </mapper>

@@ -35,4 +35,12 @@ public interface ShopcartService {
      * @return
      */
     Object judge(Shopcart sc, GoodsForm goodf, int num);
+
+    /**
+     * 增加或减少数量购物车里的数量
+     * @param sc
+     * @param choose
+     * @return
+     */
+    String updaShopnum(Shopcart sc, String choose);
 }
