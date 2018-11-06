@@ -2,9 +2,7 @@ package cn.controller;
 
 import cn.pojo.UserForm;
 import cn.service.UserFormService;
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.sun.jndi.toolkit.url.UrlUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -48,14 +46,15 @@ public class UserFormController {
         requestUrlParam.put( "grant_type","authorization_code" );//默认参数
 
         //发送post请求读取调用微信接口获取openid用户唯一标识
-        JSONObject jsonObject = JSON.parseObject(UrlUtil.sendPost(requestUrl,requestUrlParam ));
-        return jsonObject;
+        //JSONObject jsonObject = JSON.parseObject(UrlUtil.sendPost(requestUrl,requestUrlParam ));
+        //return jsonObject;
+        return null;
     }
     /**
      * 将用户信息插入到数据库
      * @return
      */
-    private String insertUser(String userRes,String openid,RawData data) {
+    private String insertUser(String userRes,String openid/*,RawData data*/) {
         //判断用户数据库是否存在,不存在，入库。
         UserForm user = userformservice.login(openid);
         //uuid生成唯一key
@@ -86,7 +85,7 @@ public class UserFormController {
         } else {
             //已存在
             //logger.info("用户openid已存在,不需要插入");
-            return user.getUid();//返回用户唯一标志skey
+            return String.valueOf(user.getUid());//返回用户唯一标志skey
         }
         return skey;
     }

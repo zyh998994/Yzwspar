@@ -63,7 +63,7 @@ public class UserForm {
         this.mobileno = mobileno;
     }
 
-    public String getUid() {
+    public Integer getUid() {
         return uid;
     }
 
