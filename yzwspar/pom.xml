@@ -297,7 +297,7 @@
 
         <version>${spring.redis.version}</version>
 
-    </dependency>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
 
@@ -311,7 +311,7 @@
 
         <version>${commons.version}</version>
 
-    </dependency>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
 
@@ -325,7 +325,20 @@
 
         <version>${jedis.version}</version>
 
-    </dependency>
+        </dependency>
+
+
+        <!--根据code获取openid与解码用户信息-->
+        <dependency>
+            <groupId>org.codehaus.xfire</groupId>
+            <artifactId>xfire-core</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+            <version>1.46</version>
+        </dependency>
 
     </dependencies>
 
