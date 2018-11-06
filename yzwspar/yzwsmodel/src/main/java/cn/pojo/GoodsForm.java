@@ -16,11 +16,11 @@ public class GoodsForm {
     private Integer sid;    //商家ID
     private Integer gstate; //商品状态
     private Integer tid;    //种类ID
-    private String specs1;
-    private Integer specs2;
-    private String specs3;
-    private String specs4;
-    private Integer ext1;
+    private String specs1;  //
+    private Integer specs2; //
+    private String specs3;  //
+    private String specs4;  //
+    private Integer ext1; //库存
     private String ext2;
     private String exts3;
 

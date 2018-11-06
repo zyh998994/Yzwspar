@@ -19,5 +19,5 @@
     </insert>
     <delete id="delsite" parameterType="cn.pojo.AddressForm">
         delete from addressform where uuid = #{uuid} and oid = #{oid}
-</delete>
+    </delete>
 </mapper>

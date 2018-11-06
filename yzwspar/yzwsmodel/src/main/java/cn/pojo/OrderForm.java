@@ -9,9 +9,39 @@ public class OrderForm {
     private Integer oid;    //订单ID
     private String onum;    //订单数量
     private Integer uid;    //微信用户ID
-    private Integer seid;   //商家ID
+
+
+
+    private Integer goodid;   //商品ID
     private Date odatetime; //订单产生时间
     private Integer aid;    //地址ID
+    private Integer state;  //状态 0.代付款 1.代发货 2.待收货 3.待评价
+    private String bianhao;//订单编号
+
+    public Integer getGoodid() {
+        return goodid;
+    }
+
+    public void setGoodid(Integer goodid) {
+        this.goodid = goodid;
+    }
+    public String getBianhao() {
+        return bianhao;
+    }
+
+    public void setBianhao(String bianhao) {
+        this.bianhao = bianhao;
+    }
+
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
+    }
+
+
 
     public Integer getOid() {
         return oid;
@@ -37,13 +67,6 @@ public class OrderForm {
         this.uid = uid;
     }
 
-    public Integer getSeid() {
-        return seid;
-    }
-
-    public void setSeid(Integer seid) {
-        this.seid = seid;
-    }
 
     public Date getOdatetime() {
         return odatetime;
