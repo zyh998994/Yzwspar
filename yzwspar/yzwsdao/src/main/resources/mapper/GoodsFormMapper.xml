@@ -4,11 +4,28 @@
 
 <mapper namespace="cn.dao.GoodsFormDao">
     <select id="selfuzzy" resultType="cn.pojo.GoodsForm" parameterType="String">
-          select gname,gprice,ginfo,gimage,ginfoimage from goodsform
-          <where>
+          select gname,gprice,ginfo,gimage,ginfoimage from goodsform where 1=1
               <if test="gname != null">
                   and gname like concat(concat('%',#{gname},'%'))
               </if>
-          </where>
+
+    </select>
+
+    <select id="selinfo" resultType="cn.pojo.GoodsForm" parameterType="int">
+        select gname,gprice,gimage from goodsform
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="tid != null">
+                and tid=#{tid}
+            </if>
+        </trim>
+    </select>
+
+    <select id="selgoodsinfo" resultType="cn.pojo.GoodsForm" parameterType="int">
+        select gname,gprice,ginfo,gimage,ginfoimage,gdate,sid, from goodsform
+        <trim prefix="where" prefixOverrides="adn|or">
+            <if test="gid != null">
+                and gid=#{gid}
+            </if>
+        </trim>
     </select>
 </mapper>
