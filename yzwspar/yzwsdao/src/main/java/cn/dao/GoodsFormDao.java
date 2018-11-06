@@ -14,4 +14,6 @@ public interface GoodsFormDao {
    List<GoodsForm> selfuzzy(@Param("gname")String gname);
 
 
+
+
  }

@@ -1,14 +1,11 @@
 package cn.service;
 
-import cn.pojo.TypeForm;
-
 public interface TypeFormService {
-   /* *//**
-     * 商品名称
+    /**
+     * 根据gnid查询
+     * @param gnid
      * @return
-     *//*
-    String ShowType();
-*/
+     */
     String ShowType(Integer gnid);
 
 }
