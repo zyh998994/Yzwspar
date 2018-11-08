@@ -3,9 +3,12 @@ package cn.controller;
 import cn.pojo.UserForm;
 import cn.service.UserFormService;
 import com.alibaba.fastjson.JSONObject;
+import com.wordnik.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -13,10 +16,12 @@ import java.util.Map;
 import java.util.UUID;
 
 @Controller
-/*@RequestMapping("/login")*/
-@RequestMapping("/login")
+@RequestMapping("/api/login")
+@Api(value = "/login")
+@ApiModel(description = "群组")
 public class UserFormController {
 
+    @ApiModelProperty(required = true,value = "群组的ID")
     @Autowired
     private UserFormService userformservice;
 
@@ -33,9 +38,11 @@ public class UserFormController {
      * @param code
      * @return
      */
-
-
-    public static JSONObject getSessionKeyOrOpenId(String code){
+    @RequestMapping(value = "/selectinfo",method = RequestMethod.POST)
+    @ApiOperation(value = "通过code获取oppenid和sessionKey",notes = "通过code获取oppenid和sessionKey",produces = "application/json")
+    @ApiResponses({@ApiResponse(code = 400,message = "Invalid user supplied")})
+    @ResponseBody
+    public static JSONObject getSessionKeyOrOpenId(@ApiParam(name = "code",value = "code值",required = true) String code){
         //微信端登录code
         String wxCode = code;
         String requestUrl = "https://api.weixin.qq.com/sns/jscode2session";
@@ -50,11 +57,20 @@ public class UserFormController {
         //return jsonObject;
         return null;
     }
+
     /**
      * 将用户信息插入到数据库
      * @return
      */
-    private String insertUser(String userRes,String openid/*,RawData data*/) {
+    @RequestMapping(value = "/addinfo",method = RequestMethod.POST)
+    @ApiOperation(value = "将用户信息插入到数据库",notes = "将用户信息插入到数据库",produces = "application/json")
+    @ApiResponses({@ApiResponse(code = 400,message = "Invalid user supplied")})
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "userRes",value = "获取的用户信息",paramType = "form",dataType = "String"),
+            @ApiImplicitParam(name = "openid",value = "用户的openid",paramType = "form",dataType = "String")
+    })
+    @ResponseBody
+    private String insertUser( String userRes,String openid/*,RawData data*/) {
         //判断用户数据库是否存在,不存在，入库。
         UserForm user = userformservice.login(openid);
         //uuid生成唯一key

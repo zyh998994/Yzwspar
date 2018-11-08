@@ -13,7 +13,7 @@
 
     <select id="selinfo" resultType="cn.pojo.GoodsForm" parameterType="int">
         select gname,gprice,gimage from goodsform
-        <trim prefix="where" prefixOverrides="and|or">
+        <trim prefix="where" prefixOverrides="adn|or">
             <if test="tid != null">
                 and tid=#{tid}
             </if>

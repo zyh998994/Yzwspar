@@ -1,14 +1,19 @@
 package cn.controller;
 
 import cn.service.GoodsFormService;
+import com.wordnik.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/goodsinfo")
+@RequestMapping("/api/goodsinfo")
+@Api(value = "/goodsinfo")
+@ApiModel(description = "群组")
 public class GoodsFormController {
+    @ApiModelProperty(required = true,value = "群组的ID")
     @Autowired
     private GoodsFormService gsfs;
 
@@ -42,9 +47,11 @@ public class GoodsFormController {
      * @param
      * @return
      */
-   @RequestMapping(value = "/fuzzyshow")
+   @RequestMapping(value = "/fuzzyshow",method = RequestMethod.GET)
+   @ApiOperation(value = "模糊查询并分页显示",notes = "模糊查询并分页显示",produces = "application/json")
+   @ApiResponses({@ApiResponse(code = 400,message = "Invalid user supplied")})
    @ResponseBody
-   public String selfuzzy(){
+   public String selfuzzy(@ApiParam(name = "gname",value = "商品名",required = true) String gname){
        return gsfs.getPageByIndexFuzzy(1,5);
    }
    /*public String getsel(String gname, Model model){
@@ -64,9 +71,11 @@ public class GoodsFormController {
      * @param
      * @return
      */
-    @RequestMapping("/goodsshow")
+    @RequestMapping(value = "/goodsshow",method = RequestMethod.GET)
+    @ApiOperation(value = "根据商品类型展示商品信息并分页显示",notes = "根据商品类型展示商品信息并分页显示",produces = "application/json")
+    @ApiResponses({@ApiResponse(code = 400,message = "Invalid user supplied")})
     @ResponseBody
-    public String selinfo(){
+    public String selinfo(@ApiParam(name = "tid",value = "商品类型ID",required = true) Integer tid){
         return gsfs.getPageByIndexInfo(1,5);
     }
    /* public String selinfo(Integer tid, Model model){
@@ -80,9 +89,11 @@ public class GoodsFormController {
      * 根据商品ID查询商品所有信息并分页显示
      * @return
      */
-   @RequestMapping("goodsinfoshow")
+   @RequestMapping(value = "/goodsinfoshow",method = RequestMethod.GET)
+   @ApiOperation(value = "根据商品ID查询商品所有信息并分页显示",notes = "根据商品ID查询商品所有信息并分页显示",produces = "application/json")
+   @ApiResponses({@ApiResponse(code = 400,message = "Invalid user supplied")})
    @ResponseBody
-   public String selgoodsinfo(){
+   public String selgoodsinfo(@ApiParam(name = "gid",value = "商品ID",required = true) Integer gid){
        return gsfs.getPageByIndexInfo(1,3);
    }
 }
